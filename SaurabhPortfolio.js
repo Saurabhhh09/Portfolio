@@ -12,7 +12,6 @@ function makeActive(element) {
 function makeActive2(element) {
   // Remove "active" class from all links
   var navlinks = document.querySelectorAll('.info');
-  // var tabcontents = document.querySelectorAll('.info-contents');
   navlinks.forEach(function (link) {
     link.classList.remove('active');
   });

@@ -5,8 +5,6 @@ box-sizing: border-box;
 font-family: 'poppins','serif';
 }
 html {
-/* height: 100%;
-width: 100%; */
 scroll-behavior: smooth;
 }
 #maindiv{
@@ -178,7 +176,9 @@ header #header-text p a:hover::after{
     }
     header #header-text #txt{
         margin-top: 80%;
-
+    }
+    #About .imagediv{
+        margin-top: 5px;
     }
 }
 #successMsg{
