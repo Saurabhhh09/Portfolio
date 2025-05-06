@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfilio-Saurabh</title>
+    <link rel="stylesheet" href="SaurabhPortfolio.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div id="maindiv">
+
+        <header>
+            <div class="container-fluid">
+                <!--------- Navbar Section --------->
+                <nav class="navbar navbar-expand-sm">
+                    <div class="container">
+                        <div class="navbar-brand animate__animated animate__bounceIn">
+                            <img src="images/Saurab-Logo.png" alt="logo" width="150vh" class="img-fluid rounded-pill">
+                        </div>
+
+                        <!--------- side Navbar  ------------------>
+                        <!-- <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                        aria-controls="offcanvasNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                  
+                      <div class="offcanvas offcanvas-end"  tabindex="-1" id="offcanvasNavbar"
+                        aria-labelledby="offcanvasNavbarLabel" style="width: 250px; background-color: #ff004f;">
+                        <div class="offcanvas-header">
+                          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3"  id="navLinks">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" onclick="makeActive(this)">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#About" onclick="makeActive(this)">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#Projects" onclick="makeActive(this)">Projects</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#Contact" onclick="makeActive(this)">Contact</a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div> -->
+
+                      <!----------------- simple Navbar  ------------------>
+
+                        <button class="navbar-toggler bg-danger" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapsibleNavbar">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+
+                        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                            <ul class="navbar-nav ms-auto" id="navLinks">
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="#" onclick="makeActive(this)">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#About" onclick="makeActive(this)">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#Projects" onclick="makeActive(this)">Projects</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#Contact" onclick="makeActive(this)">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <!-- Image Section -->
+            <div class="container" id="header-text">
+                <div class="row ps-5">
+                    <div class="col-lg-6 col-sm-12 col-12 pt-5" id="txt">
+                        <h5
+                            style="color: red; font-weight: bold; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+                            Web
+                            Developer <span style="font-style: italic;">(C# .NET)</span></h5>
+                        <div class="mt-4">
+                            <h3>Hello, I'm</h3>
+                            <p class="fs-1 fw-bolder animate__animated animate__zoomInDown anmate__slower"><a
+                                    href="#">Saurabh Kushwaha</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!------------ About Section  ------------->
+        <div id="About" style="min-height: 50dvh; background-color: #030303;">
+            <div class="container " style="background-color: #030303;">
+                <div class="row pt-5 d-flex justify-content-center">
+                    <div class="col-lg-4 p-5">
+                        <div class="imagediv">
+                            <img src="images/photo1 - Copy.jpg" alt="user" class="img-fluid rounded-1">
+                        </div>
+                    </div>
+                    <div class="col-lg-7" id="text-about">
+                        <div class="mt-5">
+                            <h1 class="mb-2">About Me</h1>
+                            <p class="fs-5">My name is <span style="color: red;">Saurabh Kushwaha</span>. I was born in
+                                Uttar Pradesh and am currently living in Vadodara, Gujarat, where I am pursuing a Web
+                                Development course in C#.NET at <abbr title="Baroda Institute of Technology">BIT</abbr>.
+                                I completed my schooling and college education in Uttar Pradesh. I am passionate about
+                                coding and always eager to learn new things — I consider myself a quick learner. Besides
+                                coding, I enjoy playing cricket, chess, and listening to music. I believe continuous
+                                learning and dedication are the keys to success, and I am excited to build my career in
+                                the world of web development.</p>
+                            <div class="row" id="details">
+                                <div class="col-lg-12">
+                                    <ul class="d-flex">
+                                        <li><a class="info active"
+                                                onclick="makeActive2('Personal')">Personal</a></li>
+                                        <li> <a class="info" onclick="makeActive2('Education')">Education</a>
+                                        </li>
+                                        <li><a class="info" onclick="makeActive2('Skills')">Skills</a>
+                                        </li>
+                                    </ul>
+                                    <div class="info-contents active-tab" id="Personal">
+                                        <ul>
+                                            <li class=""><b style="color: rgb(218, 91, 91);">Name : </b>Saurabh Kushwaha
+                                            </li>
+                                            <li class=""><b style="color: rgb(218, 91, 91);">DOB : </b>02-February-2003
+                                            </li>
+                                            <li class=""><b style="color: rgb(218, 91, 91);">Gender : </b>Male</li>
+                                            <li class=""><b style="color: rgb(218, 91, 91);">Marital Status :
+                                                </b>Unmarried</li>
+                                            <li class=""><b style="color: rgb(218, 91, 91);">Language Known : </b> Hindi
+                                                and English</li>
+                                        </ul>
+                                    </div>
+                                    <div class="info-contents" id="Education">
+                                        <ul>
+                                            <li class=""><b style="color: rgb(218, 91, 91);">High School : </b>S.G.M.
+                                                Inter College , Jalaun , U.P. (82.16%)</li>
+                                            <li class=""><b style="color: rgb(218, 91, 91);">Intermediate : </b>S.G.M.
+                                                Inter College , Jalaun , U.P. (82.22%)
+                                            </li>
+                                            <li class=""><b style="color: rgb(218, 91, 91);">I.T.I. (Computer Operator &
+                                                    Programming Assistant) :</b>Government Industrial Training Institute
+                                                , Madhogarh , Jalaun , Uttar Pradesh (85.33%) </li>
+                                            <li class=""><b style="color: rgb(218, 91, 91);">B.Sc. :
+                                                </b>Late Pt.Babu Chandrashekhar Rambharose Tiwari Degree
+                                                College,Jalaun,U.P. (Running)</li>
+                                            <li class=""><b style="color: rgb(218, 91, 91);">Certificate :
+                                                </b>Web Development in .NET (BIT)</li>
+                                        </ul>
+                                    </div>
+                                    <div class="info-contents" id="Skills">
+                                        <ul>
+                                            <li class=""><b style="color: rgb(218, 91, 91);">Language : </b>HTML, CSS,
+                                                JavaScript, C, C++, C# .</li>
+                                            <li class=""><b style="color: rgb(218, 91, 91);">Framework : </b>.NET
+                                                Framework, .NET MVC , .NET Core MVC, .NET Core Web API.
+                                            </li>
+                                            <li class=""><b style="color: rgb(218, 91, 91);">Database : </b>MS SQL
+                                                Server .</li>
+                                            <li class=""><b style="color: rgb(218, 91, 91);">Tool & Platforms :
+                                                </b>Visual Studio 2022, Postman .</li>
+                                            <li class=""><b style="color: rgb(218, 91, 91);">Others : </b> OOPs , Web
+                                                API , Entity Framework , ADO.NET ,
+                                                ASP.NET , LINQ , JSON , AJAX ,
+                                                BOOTSTRAP, jQuery .</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!------------- Projects Section -------------->
+        <div id="Projects" class="container-fluid" style="min-height: 50dvh; background-color: #080808;">
+            <div class="row pt-5 pb-5 d-flex justify-content-center ">
+                <h1 class="text-center mb-4">My Projects</h1>
+                <div class="col-xl-4 col-lg-6 col-md-12 col-sm-12 col-12 p-2 cardDiv">
+                    <div class="card" style="min-width:344px;">
+                        <img class="card-img-top img-fluid" src="images/Voting.png" alt="Card image">
+                        <div class="card-body">
+                            <h4 class="card-title fw-semibold" style="color: red;">College Voting Project</h4>
+                            <p class="card-text">The College Voting Management System is a secure and efficient web
+                                application built using ASP.NET MVC, Entity Framework with Code first Approach, designed
+                                to facilitate digital elections within a college or academic institution. It allows
+                                students to vote online for various posts like president, secretary, etc., and displays
+                                real-time election statistics using Google Charts.</p>
+                            <a href="https://github.com/Saurabhhh09/VotingProject" target="_blank"
+                                class="btn btn-danger"> GitHub Link</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-6 col-md-12 col-sm-12 col-12 p-2 cardDiv">
+                    <div class="card" style="min-width: 344px;">
+                        <img class="card-img-top img-fluid" src="images/Kia.png" alt="Card image">
+                        <div class="card-body">
+                            <h4 class="card-title fw-semibold" style="color: red;">KIA Automobile Management System</h4>
+                            <p class="card-text">KIA Automobile Management System is a web-based application built using
+                                ASP.NET Web Forms (C#) and SQL Server. The system is designed to streamline and automate
+                                the management of vehicle details, customer data and billing for KIA automobile
+                                dealerships or service centers.This project only for buying car , not for car service.
+                            </p>
+                            <a href="https://github.com/Saurabhhh09/Automobile-Management-System" class="btn btn-danger"
+                                target="_blank">GitHub Link</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!---------------- contact -------------->
+        <div id="Contact" class="container-fluid">
+            <div class="container">
+                <div class="row mb-4 d-flex justify-content-center">
+                    <h1 class="text-center mb-3">Contact Me</h1>
+                    <div class="col-lg-6 col-sm-12 col-12" id="contact-left">
+
+                        <form name="submit-to-google-sheet">
+                            <div class="mb-3 mt-3">
+                                <label for="name" class="form-label">Name:</label>
+                                <input type="text" class="form-control" id="name" name="Name" placeholder="Your Name"
+                                    autocomplete="off" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email:</label>
+                                <input type="email" class="form-control" id="email" placeholder="Your Email"
+                                    autocomplete="off" name="Email" required>
+                            </div>
+                            <label for="msg" class="form-label">Message:</label>
+                            <div class="form-floating mb-3">
+                                <textarea class="form-control" id="msg"  name="Message" placeholder="Your Message"
+                                    style="height:100px;" required></textarea>
+                                <label for="msg">Your Message</label>
+                            </div>
+                            <div class="d-flex align-item-center justify-content-center">
+                                <button type="submit"
+                                    class="btn btn-outline-danger px-5 mt-4 text-white   py-2">Submit</button>
+                            </div>
+                        </form>
+                        <span id="successMsg"></span>
+                    </div>
+                    <div class="col-lg-4 col-sm-12 col-12 pt-5 ps-auto" id="contact-right">
+                        <p class="fs-3"><i class="ri-mail-fill"></i> saurabhlinkedin@gmail.com</p>
+                        <p class="fs-3"><i class="ri-phone-fill"></i> +91 7080142694</p>
+                        <p></p>
+                        <div class="social-icons mb-4">
+                            <a href="https://github.com/Saurabhhh09" target="_blank" class="fs-1"><i class="ri-github-fill"></i></a>
+                            <a href="https://www.linkedin.com/in/saurabh-kushwaha-27b4a233a" target="_blank" class="fs-1"><i
+                                    class="ri-linkedin-box-fill"></i></a>
+                            <!-- <a href="" class="fs-1"><i class="ri-twitter-x-fill"></i></a>
+                            <a href="" class="fs-1"><i class="ri-instagram-line"></i></a> -->
+                        </div>
+                        <a class="fs-3 text-decoration-none text-white btn btn-danger" target="_blank" download
+                            href="images/SaurabhKushwahaResume.pdf"><i class="ri-download-cloud-2-fill"></i> Download
+                            CV</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer style="background-color: #030303;">
+            <div class="container-fluid">
+                <div class="row d-flex justify-content-center align-item-center">
+                    <div class="col-lg-6 clo-sm-12 col-12">
+                        <p class="text-center">
+                            Copyright &copy; Saurabh . Made with <i class="ri-heart-pulse-fill text-danger"></i> by myself.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="SaurabhPortfolio.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
